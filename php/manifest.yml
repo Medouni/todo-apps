@@ -17,8 +17,6 @@
 applications:
 - name: bluemix-todo-php
   host: bluemix-todo-php
-  memory: 128M
+  memory: 64M
   instances: 1
   path: .
-  services:
-    - todo-db-php
